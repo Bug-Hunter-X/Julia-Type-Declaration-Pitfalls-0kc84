@@ -1,0 +1,1 @@
+This example demonstrates a common issue in Julia programming involving function type declarations.  The `myfunction2` function is declared to accept only `Int64` values. Passing a floating-point number (`Float64`) results in a `MethodError`. The `myfunction` demonstrates the same logic without type annotation.
